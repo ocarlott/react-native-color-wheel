@@ -12,5 +12,5 @@ declare module 'react-native-color-wheel' {
 		onColorChangeComplete?: (color: HsvColor) => void;
 	};
 
-	export const ColorWheel: React.ComponentType<ColorWheelProp>;
+	export default React.ComponentType<ColorWheelProp>;
 }
